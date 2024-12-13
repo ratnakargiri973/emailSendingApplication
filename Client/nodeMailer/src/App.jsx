@@ -47,7 +47,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/api/user', formData);
+      const response = await axios.post('https://emailsendingapplication-tn31.onrender.com/api/user', formData);
 
       if (response.status === 200) {
         setShow(true);
