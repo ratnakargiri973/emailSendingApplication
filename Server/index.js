@@ -6,7 +6,7 @@ import emailRouter from './emailRoute.js';
 
 
 const app = express();
-app.use(cors({origin: "http://localhost:5174"}));
+app.use(cors({origin: "https://emailsendingapplication-1.onrender.com"}));
 app.use(express.json());
 
 const PORT= process.env.PORT;
